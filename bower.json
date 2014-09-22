@@ -1,0 +1,28 @@
+{
+  "name": "bootui",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sgkit/bootui",
+  "authors": [
+    "shawn sandy <shawnsandy04@gmail.com>"
+  ],
+  "description": "Semantic bootstrap toolkit",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Bootstrap",
+    "Semantic"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "lesshat": "~3.0.2"
+  }
+}
