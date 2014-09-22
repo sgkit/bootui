@@ -5905,14 +5905,6 @@ button.close {
 .modal-footer:after,
 .bootui .contain:before,
 .bootui .contain:after,
-section.bootui div:before,
-section.bootui div:after,
-header.bootui div:before,
-header.bootui div:after,
-footer.bootui div:before,
-footer.bootui div:after,
-main.bootui div:before,
-main.bootui div:after,
 section.bootui div.contain:before,
 section.bootui div.contain:after,
 header.bootui div.contain:before,
@@ -5990,10 +5982,6 @@ main.bootui div.contain:after,
 .panel-body:after,
 .modal-footer:after,
 .bootui .contain:after,
-section.bootui div:after,
-header.bootui div:after,
-footer.bootui div:after,
-main.bootui div:after,
 section.bootui div.contain:after,
 header.bootui div.contain:after,
 footer.bootui div.contain:after,
@@ -6294,15 +6282,6 @@ main.bootui div.contain:after,
 .bootui aside,
 .bootui label {
   margin-bottom: 10px;
-}
-section.bootui div,
-header.bootui div,
-footer.bootui div,
-main.bootui div {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 section.bootui div.contain,
 header.bootui div.contain,

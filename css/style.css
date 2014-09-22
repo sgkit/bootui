@@ -4,8 +4,8 @@
 /* mixins
 use full theme mixins
 */
-
-label, .label {
+/* navbars */
+label {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
