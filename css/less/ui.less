@@ -8,6 +8,7 @@
 *******************/
 
 @import "ui-mixins";
+@import "ui-mobile";
 
 .bootui {
 
@@ -48,6 +49,15 @@
   .column-width(ten,10);
   .column-width(eleven,11);
   .column-width(tweleve,12);
+
+  label, .label, .rounded {
+    border-radius: @border-radius-base;
+  }
+
+  //ui-mobile
+
+    .ui-mobile();
+
 
 
 }
