@@ -55,7 +55,6 @@ div[role="page"] > section,
 #page > footer,
 div[role="page"] > footer {
   padding-top: 80px;
-  padding-bottom: 80px;
 }
 figure {
   margin-bottom: 10px;
@@ -80,6 +79,8 @@ figure {
   background-color: #f2f2f2;
   color: #808080;
   padding: 0;
+  padding-bottom: 80px;
+  box-sizing: border-box;
 }
 .home #page > header,
 .home [role="header"] {
