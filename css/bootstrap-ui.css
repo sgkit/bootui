@@ -6814,7 +6814,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .one,
 .bootui .cw > .one {
   float: left;
-  width: 8.33333333%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6824,7 +6824,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .one,
   .bootui .cw > .one {
     float: left;
-    width: 8.33333333%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -6849,7 +6849,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .two,
 .bootui .cw > .two {
   float: left;
-  width: 16.66666667%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6859,7 +6859,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .two,
   .bootui .cw > .two {
     float: left;
-    width: 16.66666667%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -6884,7 +6884,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .three,
 .bootui .cw > .three {
   float: left;
-  width: 25%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6894,7 +6894,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .three,
   .bootui .cw > .three {
     float: left;
-    width: 25%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -6919,7 +6919,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .four,
 .bootui .cw > .four {
   float: left;
-  width: 33.33333333%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6929,7 +6929,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .four,
   .bootui .cw > .four {
     float: left;
-    width: 33.33333333%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -6954,7 +6954,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .five,
 .bootui .cw > .five {
   float: left;
-  width: 41.66666667%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6964,7 +6964,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .five,
   .bootui .cw > .five {
     float: left;
-    width: 41.66666667%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -6989,7 +6989,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .six,
 .bootui .cw > .six {
   float: left;
-  width: 50%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6999,7 +6999,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .six,
   .bootui .cw > .six {
     float: left;
-    width: 50%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -7024,7 +7024,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .seven,
 .bootui .cw > .seven {
   float: left;
-  width: 58.33333333%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7034,7 +7034,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .seven,
   .bootui .cw > .seven {
     float: left;
-    width: 58.33333333%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -7059,7 +7059,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .eight,
 .bootui .cw > .eight {
   float: left;
-  width: 66.66666667%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7069,7 +7069,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .eight,
   .bootui .cw > .eight {
     float: left;
-    width: 66.66666667%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -7094,7 +7094,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .nine,
 .bootui .cw > .nine {
   float: left;
-  width: 75%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7104,7 +7104,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .nine,
   .bootui .cw > .nine {
     float: left;
-    width: 75%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -7129,7 +7129,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .ten,
 .bootui .cw > .ten {
   float: left;
-  width: 83.33333333%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7139,7 +7139,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .ten,
   .bootui .cw > .ten {
     float: left;
-    width: 83.33333333%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -7164,7 +7164,7 @@ main.bootui div.contain {
 .bootui .cols.wide > .eleven,
 .bootui .cw > .eleven {
   float: left;
-  width: 91.66666667%;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7174,7 +7174,7 @@ main.bootui div.contain {
   .bootui .cols.wide > .eleven,
   .bootui .cw > .eleven {
     float: left;
-    width: 91.66666667%;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -7230,4 +7230,50 @@ main.bootui div.contain {
 .bootui .label,
 .bootui .rounded {
   border-radius: 3px;
+}
+.bootui .mobile {
+  display: none !important;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .bootui .mobile {
+    display: block !important;
+  }
+  table.bootui .mobile {
+    display: table;
+  }
+  tr.bootui .mobile {
+    display: table-row !important;
+  }
+  th.bootui .mobile,
+  td.bootui .mobile {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .bootui .mobile {
+    display: block !important;
+  }
+  table.bootui .mobile {
+    display: table;
+  }
+  tr.bootui .mobile {
+    display: table-row !important;
+  }
+  th.bootui .mobile,
+  td.bootui .mobile {
+    display: table-cell !important;
+  }
+}
+.bootui .desktop {
+  display: none !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bootui .desktop {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) {
+  .bootui .desktop {
+    display: inline !important;
+  }
 }
