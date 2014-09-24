@@ -15,7 +15,7 @@ body {
 }
 #ui {
   color: #404040;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 h1,
 h2,
@@ -52,7 +52,7 @@ div[role="page"] > main,
 div[role="page"] > section,
 #ui > footer,
 div[role="page"] > footer {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 figure {
   margin-bottom: 10px;
@@ -78,7 +78,7 @@ figure {
   background-color: #f2f2f2;
   color: #808080;
   padding: 0;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   box-sizing: border-box;
 }
 .home #ui > header,
