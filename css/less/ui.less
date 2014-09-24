@@ -9,6 +9,10 @@
 
 @import "ui-mixins";
 @import "ui-mobile";
+@import "style-guide/type";
+@import "mixins";
+
+
 
 .bootui {
 
@@ -58,7 +62,34 @@
 
     .ui-mobile();
 
+  //font-sizing
 
 
 }
+
+//global settings
+@media (max-width: @screen-xs-max) {
+  html{
+    font-size: 58%;
+  }
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+  html{
+    font-size: 60%;
+  }
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max){
+  html{
+    font-size: 62%;
+  }
+}
+@media (min-width: @screen-lg-min){
+  html{
+    font-size: 64%;
+  }
+}
+body{
+  .font-size(1.5);
+}
+.fontsizing;
 
