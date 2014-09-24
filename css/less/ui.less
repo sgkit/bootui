@@ -68,14 +68,21 @@
 }
 
 //global settings
-@media (max-width: @screen-xs-max) {
+@media (max-width: 320px) {
   html{
-    font-size: 58%;
+    font-size: 32%;
   }
 }
+@media (max-width: @screen-xs-max) {
+  html{
+    font-size: 54%;
+  }
+}
+
+
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
   html{
-    font-size: 60%;
+    font-size: 58%;
   }
 }
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max){
@@ -85,11 +92,23 @@
 }
 @media (min-width: @screen-lg-min){
   html{
-    font-size: 64%;
+    font-size: 62%;
   }
 }
 body{
   .font-size(1.5);
 }
+
+#ui {
+
+  label, .label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+
 .fontsizing;
 

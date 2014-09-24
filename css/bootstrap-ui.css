@@ -7299,14 +7299,19 @@ main.bootui div.contain {
     display: table-cell !important;
   }
 }
+@media (max-width: 320px) {
+  html {
+    font-size: 32%;
+  }
+}
 @media (max-width: 767px) {
   html {
-    font-size: 58%;
+    font-size: 54%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   html {
-    font-size: 60%;
+    font-size: 58%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -7316,20 +7321,25 @@ main.bootui div.contain {
 }
 @media (min-width: 1200px) {
   html {
-    font-size: 64%;
+    font-size: 62%;
   }
 }
 body {
   font-size: 15px;
   font-size: 1.5rem;
 }
+#ui label,
+#ui .label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
 .headlines {
-  font-size: 101px;
-  font-size: 10.1rem;
+  font-size: 81px;
+  font-size: 8.1rem;
 }
 .titles {
-  font-size: 82px;
-  font-size: 8.2rem;
+  font-size: 72px;
+  font-size: 7.2rem;
 }
 .subtitles {
   font-size: 68px;
@@ -7364,20 +7374,20 @@ body {
   font-size: 1.2rem;
 }
 h1 {
-  font-size: 51px;
-  font-size: 5.1rem;
+  font-size: 48px;
+  font-size: 4.8rem;
 }
 h2 {
-  font-size: 41px;
-  font-size: 4.1rem;
+  font-size: 40px;
+  font-size: 4rem;
 }
 h3 {
-  font-size: 31px;
-  font-size: 3.1rem;
+  font-size: 32px;
+  font-size: 3.2rem;
 }
 header h1 {
-  font-size: 101px;
-  font-size: 10.1rem;
+  font-size: 81px;
+  font-size: 8.1rem;
 }
 section h1 {
   font-size: 68px;
