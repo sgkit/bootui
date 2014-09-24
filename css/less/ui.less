@@ -68,12 +68,13 @@
 }
 
 //global settings
-@media (max-width: 320px) {
+@media (max-width: 319px) {
   html{
     font-size: 32%;
   }
 }
-@media (max-width: @screen-xs-max) {
+
+@media (min-width: 321px) and (max-width: @screen-xs-max) {
   html{
     font-size: 54%;
   }
