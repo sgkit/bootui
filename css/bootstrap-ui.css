@@ -7346,8 +7346,6 @@ body {
 #ui .select select {
   width: 100%;
   margin: 0;
-  background: none;
-  border: 1px solid transparent;
   outline: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7364,9 +7362,8 @@ body {
 #ui .select select:focus {
   outline: none;
   box-shadow: 0 0 1px 3px #b4defa;
-  background-color: transparent;
   color: #222;
-  border: 1px solid #aaa;
+  border: none;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   #ui .select select::-ms-expand {
