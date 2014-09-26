@@ -5899,64 +5899,8 @@ button.close {
 .modal-footer:after,
 .bootui .contain:before,
 .bootui .contain:after,
-section.bootui div.contain:before,
-section.bootui div.contain:after,
-header.bootui div.contain:before,
-header.bootui div.contain:after,
-footer.bootui div.contain:before,
-footer.bootui div.contain:after,
-main.bootui div.contain:before,
-main.bootui div.contain:after,
 .bootui .blocks:before,
-.bootui .blocks:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after,
-.bootui .cols.wide:before,
-.bootui .cols.wide:after,
-.bootui .cw:before,
-.bootui .cw:after {
+.bootui .blocks:after {
   content: " ";
   display: table;
 }
@@ -5976,35 +5920,7 @@ main.bootui div.contain:after,
 .panel-body:after,
 .modal-footer:after,
 .bootui .contain:after,
-section.bootui div.contain:after,
-header.bootui div.contain:after,
-footer.bootui div.contain:after,
-main.bootui div.contain:after,
-.bootui .blocks:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after,
-.bootui .cols.wide:after,
-.bootui .cw:after {
+.bootui .blocks:after {
   clear: both;
 }
 .center-block {
@@ -6286,15 +6202,6 @@ use full theme mixins
 .bootui aside,
 .bootui label {
   margin-bottom: 10px;
-}
-section.bootui div.contain,
-header.bootui div.contain,
-footer.bootui div.contain,
-main.bootui div.contain {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 @media (min-width: 768px) {
   section.bootui div.contain,
@@ -6810,13 +6717,8 @@ main.bootui div.contain {
     width: 8.33333333%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .one,
-.bootui .cw > .one {
+.bootui .cols.wide .one,
+.bootui .cw .one {
   float: left;
   width: 100%;
   position: relative;
@@ -6825,33 +6727,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .one,
-  .bootui .cw > .one {
+  .bootui .cols.wide .one,
+  .bootui .cw .one {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .one,
-  .bootui .cw > .one {
+  .bootui .cols.wide .one,
+  .bootui .cw .one {
     float: left;
     width: 8.33333333%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .one,
-  .bootui .cw > .one {
+  .bootui .cols.wide .one,
+  .bootui .cw .one {
     float: left;
     width: 8.33333333%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .two,
-.bootui .cw > .two {
+.bootui .cols.wide .two,
+.bootui .cw .two {
   float: left;
   width: 100%;
   position: relative;
@@ -6860,33 +6757,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .two,
-  .bootui .cw > .two {
+  .bootui .cols.wide .two,
+  .bootui .cw .two {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .two,
-  .bootui .cw > .two {
+  .bootui .cols.wide .two,
+  .bootui .cw .two {
     float: left;
     width: 16.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .two,
-  .bootui .cw > .two {
+  .bootui .cols.wide .two,
+  .bootui .cw .two {
     float: left;
     width: 16.66666667%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .three,
-.bootui .cw > .three {
+.bootui .cols.wide .three,
+.bootui .cw .three {
   float: left;
   width: 100%;
   position: relative;
@@ -6895,33 +6787,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .three,
-  .bootui .cw > .three {
+  .bootui .cols.wide .three,
+  .bootui .cw .three {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .three,
-  .bootui .cw > .three {
+  .bootui .cols.wide .three,
+  .bootui .cw .three {
     float: left;
     width: 25%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .three,
-  .bootui .cw > .three {
+  .bootui .cols.wide .three,
+  .bootui .cw .three {
     float: left;
     width: 25%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .four,
-.bootui .cw > .four {
+.bootui .cols.wide .four,
+.bootui .cw .four {
   float: left;
   width: 100%;
   position: relative;
@@ -6930,33 +6817,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .four,
-  .bootui .cw > .four {
+  .bootui .cols.wide .four,
+  .bootui .cw .four {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .four,
-  .bootui .cw > .four {
+  .bootui .cols.wide .four,
+  .bootui .cw .four {
     float: left;
     width: 33.33333333%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .four,
-  .bootui .cw > .four {
+  .bootui .cols.wide .four,
+  .bootui .cw .four {
     float: left;
     width: 33.33333333%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .five,
-.bootui .cw > .five {
+.bootui .cols.wide .five,
+.bootui .cw .five {
   float: left;
   width: 100%;
   position: relative;
@@ -6965,33 +6847,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .five,
-  .bootui .cw > .five {
+  .bootui .cols.wide .five,
+  .bootui .cw .five {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .five,
-  .bootui .cw > .five {
+  .bootui .cols.wide .five,
+  .bootui .cw .five {
     float: left;
     width: 41.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .five,
-  .bootui .cw > .five {
+  .bootui .cols.wide .five,
+  .bootui .cw .five {
     float: left;
     width: 41.66666667%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .six,
-.bootui .cw > .six {
+.bootui .cols.wide .six,
+.bootui .cw .six {
   float: left;
   width: 100%;
   position: relative;
@@ -7000,33 +6877,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .six,
-  .bootui .cw > .six {
+  .bootui .cols.wide .six,
+  .bootui .cw .six {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .six,
-  .bootui .cw > .six {
+  .bootui .cols.wide .six,
+  .bootui .cw .six {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .six,
-  .bootui .cw > .six {
+  .bootui .cols.wide .six,
+  .bootui .cw .six {
     float: left;
     width: 50%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .seven,
-.bootui .cw > .seven {
+.bootui .cols.wide .seven,
+.bootui .cw .seven {
   float: left;
   width: 100%;
   position: relative;
@@ -7035,33 +6907,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .seven,
-  .bootui .cw > .seven {
+  .bootui .cols.wide .seven,
+  .bootui .cw .seven {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .seven,
-  .bootui .cw > .seven {
+  .bootui .cols.wide .seven,
+  .bootui .cw .seven {
     float: left;
     width: 58.33333333%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .seven,
-  .bootui .cw > .seven {
+  .bootui .cols.wide .seven,
+  .bootui .cw .seven {
     float: left;
     width: 58.33333333%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .eight,
-.bootui .cw > .eight {
+.bootui .cols.wide .eight,
+.bootui .cw .eight {
   float: left;
   width: 100%;
   position: relative;
@@ -7070,33 +6937,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .eight,
-  .bootui .cw > .eight {
+  .bootui .cols.wide .eight,
+  .bootui .cw .eight {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .eight,
-  .bootui .cw > .eight {
+  .bootui .cols.wide .eight,
+  .bootui .cw .eight {
     float: left;
     width: 66.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .eight,
-  .bootui .cw > .eight {
+  .bootui .cols.wide .eight,
+  .bootui .cw .eight {
     float: left;
     width: 66.66666667%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .nine,
-.bootui .cw > .nine {
+.bootui .cols.wide .nine,
+.bootui .cw .nine {
   float: left;
   width: 100%;
   position: relative;
@@ -7105,33 +6967,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .nine,
-  .bootui .cw > .nine {
+  .bootui .cols.wide .nine,
+  .bootui .cw .nine {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .nine,
-  .bootui .cw > .nine {
+  .bootui .cols.wide .nine,
+  .bootui .cw .nine {
     float: left;
     width: 75%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .nine,
-  .bootui .cw > .nine {
+  .bootui .cols.wide .nine,
+  .bootui .cw .nine {
     float: left;
     width: 75%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .ten,
-.bootui .cw > .ten {
+.bootui .cols.wide .ten,
+.bootui .cw .ten {
   float: left;
   width: 100%;
   position: relative;
@@ -7140,33 +6997,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .ten,
-  .bootui .cw > .ten {
+  .bootui .cols.wide .ten,
+  .bootui .cw .ten {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .ten,
-  .bootui .cw > .ten {
+  .bootui .cols.wide .ten,
+  .bootui .cw .ten {
     float: left;
     width: 83.33333333%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .ten,
-  .bootui .cw > .ten {
+  .bootui .cols.wide .ten,
+  .bootui .cw .ten {
     float: left;
     width: 83.33333333%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .eleven,
-.bootui .cw > .eleven {
+.bootui .cols.wide .eleven,
+.bootui .cw .eleven {
   float: left;
   width: 100%;
   position: relative;
@@ -7175,33 +7027,28 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .eleven,
-  .bootui .cw > .eleven {
+  .bootui .cols.wide .eleven,
+  .bootui .cw .eleven {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .eleven,
-  .bootui .cw > .eleven {
+  .bootui .cols.wide .eleven,
+  .bootui .cw .eleven {
     float: left;
     width: 91.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .eleven,
-  .bootui .cw > .eleven {
+  .bootui .cols.wide .eleven,
+  .bootui .cw .eleven {
     float: left;
     width: 91.66666667%;
   }
 }
-.bootui .cols.wide,
-.bootui .cw {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.bootui .cols.wide > .tweleve,
-.bootui .cw > .tweleve {
+.bootui .cols.wide .tweleve,
+.bootui .cw .tweleve {
   float: left;
   width: 100%;
   position: relative;
@@ -7210,22 +7057,22 @@ main.bootui div.contain {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .bootui .cols.wide > .tweleve,
-  .bootui .cw > .tweleve {
+  .bootui .cols.wide .tweleve,
+  .bootui .cw .tweleve {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  .bootui .cols.wide > .tweleve,
-  .bootui .cw > .tweleve {
+  .bootui .cols.wide .tweleve,
+  .bootui .cw .tweleve {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  .bootui .cols.wide > .tweleve,
-  .bootui .cw > .tweleve {
+  .bootui .cols.wide .tweleve,
+  .bootui .cw .tweleve {
     float: left;
     width: 100%;
   }
@@ -7336,6 +7183,9 @@ body {
 #ui .navbar-toggle .fa {
   font-size: 26px;
   font-size: 2.6rem;
+}
+#ui form fieldset {
+  border: none;
 }
 #ui .select {
   position: relative;

@@ -39,7 +39,8 @@
 
     }
 
-    view_code('.ccode, .view-code');
+
+    view_code('.ccode, .view-code, .view');
 
 
     function cleanSource(html) {

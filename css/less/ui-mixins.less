@@ -20,7 +20,7 @@
 
         &.contain {
 
-          .container-fixed();
+          //.container-fixed();
 
           @media (min-width: @screen-sm-min) {
             width: @container-sm;
@@ -86,10 +86,10 @@
 
 
 .column-width(@name,@width){
-
+//make-row();
  .cols.wide, .cw {
-   .make-row();
-  > .@{name} {
+
+   .@{name} {
     .cols(@width, 12, 12);
    }
  }
