@@ -13,9 +13,9 @@ body {
   font-family: 'OpenSansRegular', Arial, sans-serif;
   -webkit-font-smoothing: antialiased !important;
 }
-#page {
+#ui {
   color: #404040;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 h1,
 h2,
@@ -38,24 +38,21 @@ aside h5 {
   margin-bottom: 20px;
 }
 p {
-  font-size: 16px;
-  font-size: 1.6rem;
   -webkit-box-pack: end;
   -moz-box-pack: end;
   -ms-flex-pack: end;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
 }
-#page > header,
+#ui > header,
 div[role="page"] > header,
-#page > main,
+#ui > main,
 div[role="page"] > main,
-#page > section,
+#ui > section,
 div[role="page"] > section,
-#page > footer,
+#ui > footer,
 div[role="page"] > footer {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
 }
 figure {
   margin-bottom: 10px;
@@ -63,6 +60,7 @@ figure {
 }
 .navbar-toggle .fa {
   font-size: 16px;
+  font-size: 1.6rem;
 }
 .ccode {
   cursor: pointer;
@@ -72,7 +70,7 @@ figure {
   margin-bottom: 10px;
 }
 /* ---- header ---- */
-#page > header,
+#ui > header,
 [role="header"] {
   height: 320px;
   min-height: 320px;
@@ -80,36 +78,37 @@ figure {
   background-color: #f2f2f2;
   color: #808080;
   padding: 0;
+  padding-bottom: 100px;
+  box-sizing: border-box;
 }
-.home #page > header,
+.home #ui > header,
 .home [role="header"] {
   height: 500px;
 }
-#page > header h1,
+#ui > header h1,
 [role="header"] h1 {
-  font-size: 83px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-#page > header h1:hover,
+#ui > header h1:hover,
 [role="header"] h1:hover {
   color: #222222;
 }
-#page > header .vtable,
+#ui > header .vtable,
 [role="header"] .vtable {
   display: table;
   height: inherit !important;
   width: 100% !important;
 }
-#page > header .vtable .table-cell,
+#ui > header .vtable .table-cell,
 [role="header"] .vtable .table-cell {
   display: table-cell;
   width: 100%;
   vertical-align: middle;
 }
-#page > header .vtable .table-cell,
+#ui > header .vtable .table-cell,
 [role="header"] .vtable .table-cell {
   display: table-cell;
   width: 100%;
@@ -184,82 +183,4 @@ article .author .avatar {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-.headlines {
-  font-size: 101px;
-  font-size: 10.1rem;
-}
-.titles {
-  font-size: 82px;
-  font-size: 8.2rem;
-}
-.subtitles {
-  font-size: 68px;
-  font-size: 6.8rem;
-}
-.xxlarge {
-  font-size: 52px;
-  font-size: 5.2rem;
-}
-.xlarge {
-  font-size: 41px;
-  font-size: 4.1rem;
-}
-.large {
-  font-size: 32px;
-  font-size: 3.2rem;
-}
-.medium {
-  font-size: 26px;
-  font-size: 2.6rem;
-}
-.default-font {
-  font-size: 16px;
-  font-size: 1.6rem;
-}
-.small {
-  font-size: 14px;
-  font-size: 1.4rem;
-}
-.tiny {
-  font-size: 12px;
-  font-size: 1.2rem;
-}
-h1,
-aside h1,
-aside h2,
-aside h3,
-aside h4,
-aside h5 {
-  font-size: 51px;
-  font-size: 5.1rem;
-}
-h2 {
-  font-size: 41px;
-  font-size: 4.1rem;
-}
-h3 {
-  font-size: 31px;
-  font-size: 3.1rem;
-}
-header h1 {
-  font-size: 101px;
-  font-size: 10.1rem;
-}
-section h1 {
-  font-size: 68px;
-  font-size: 6.8rem;
-}
-aside h1 {
-  font-size: 26px;
-  font-size: 2.6rem;
-}
-article h1 {
-  font-size: 41px;
-  font-size: 4.1rem;
-}
-footer h1 {
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-weight: bolder;
 }

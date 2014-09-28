@@ -1,10 +1,9 @@
 //************** Shawn Sandy - created 09/04/2014 ******************/
 
 @import "../../bower_components/bootstrap/less/variables";
-@import "../../bower_components/bootstrap/less/bootstrap";
+@import (reference) "../../bower_components/bootstrap/less/bootstrap.less";
 //@import "../../../bower_components/bootstrap/less/grid";
 @import "theme-variables";
-
 
 .sections() {
 
@@ -20,7 +19,7 @@
 
         &.contain {
 
-          .container-fixed();
+          //.container-fixed();
 
           @media (min-width: @screen-sm-min) {
             width: @container-sm;
@@ -86,10 +85,10 @@
 
 
 .column-width(@name,@width){
-
+//make-row();
  .cols.wide, .cw {
-   .make-row();
-  > .@{name} {
+
+   .@{name} {
     .cols(@width, 12, 12);
    }
  }

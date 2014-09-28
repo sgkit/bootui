@@ -9,9 +9,12 @@
 
 @import "ui-mixins";
 @import "ui-mobile";
+@import "style-guide/type";
+@import "mixins";
+
+
 
 .bootui {
-
   .contain {
     .container-fixed();
   }
@@ -58,7 +61,78 @@
 
     .ui-mobile();
 
+  //font-sizing
 
 
 }
+
+//global settings
+@media (max-width: 320px) {
+  html{
+    font-size: 48%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: @screen-xs-max) {
+  html{
+    font-size: 54%;
+  }
+}
+
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+  html{
+    font-size: 58%;
+  }
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max){
+  html{
+    font-size: 62%;
+  }
+}
+@media (min-width: @screen-lg-min){
+  html{
+    font-size: 62%;
+  }
+}
+
+
+body{
+  .font-size(1.5);
+}
+
+
+#ui {
+
+  label{
+    width: 100%;
+    display: block;
+    &.inline {
+      display: inline;
+      padding-right: @padding;
+    }
+  }
+
+ input[type="text"], textarea, select {
+  &:extend(.form-control);
+  margin-bottom: @margins;
+
+}
+
+  .navbar-toggle .fa {
+    .font-size(@medium);
+  }
+
+  form {
+    fieldset {
+      border: none;
+      &:extend(.fieldset);
+    }
+  }
+
+  @import "ui-select";
+
+}
+
+.fontsizing;
 

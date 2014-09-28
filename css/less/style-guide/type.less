@@ -70,18 +70,22 @@
     section & {
       .font-size(@subtitles);
     }
-    aside & {
-       .font-size(@medium);
+
+    article header & {
+       .font-size(@xxlarge);
     }
-    article & {
-       .font-size(@xlarge);
+
+    aside header & {
+      .font-size(@medium);
     }
     footer & {
        .font-size(@default-font-size);
       font-weight: bolder;
     }
   }
-
+  p {
+    .font-size(@paragraph);
+  }
 }
 
 .fontsettings(){
