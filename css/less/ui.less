@@ -106,7 +106,8 @@ body{
 
   label{
     width: 100%;
-    display: block;
+    display: block; margin-bottom: @margins;
+
     &.inline {
       display: inline;
       padding-right: @padding;
@@ -124,6 +125,10 @@ body{
   }
 
   form {
+     input, textarea, select {
+      margin-bottom: @margins;
+
+    }
     fieldset {
       border: none;
       &:extend(.fieldset);
