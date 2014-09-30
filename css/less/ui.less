@@ -114,11 +114,28 @@ body{
     }
   }
 
- input[type="text"], textarea, select {
+ input[type=text],
+ input[type=email],
+ input[type=url],
+ input[type=tel],
+ input[type=number],
+ textarea, select {
   &:extend(.form-control);
   margin-bottom: @margins;
 
 }
+
+  input[type="color"],
+  input[type=date],
+  input[type=month]
+  {
+      width: 40%;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    display: inline;
+  }
 
   .navbar-toggle .fa {
     .font-size(@medium);
@@ -127,11 +144,18 @@ body{
   form {
      input, textarea, select {
       margin-bottom: @margins;
-
     }
     fieldset {
       border: none;
       &:extend(.fieldset);
+    }
+  }
+
+  fieldset {
+
+
+    > div {
+      margin-bottom: @margins;
     }
   }
 

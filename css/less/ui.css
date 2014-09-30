@@ -13,7 +13,11 @@
   max-width: 100%;
   height: auto;
 }
-#ui input[type="text"],
+#ui input[type=text],
+#ui input[type=email],
+#ui input[type=url],
+#ui input[type=tel],
+#ui input[type=number],
 #ui textarea,
 #ui select {
   display: block;
@@ -1127,10 +1131,23 @@ body {
   display: inline;
   padding-right: 10px;
 }
-#ui input[type="text"],
+#ui input[type=text],
+#ui input[type=email],
+#ui input[type=url],
+#ui input[type=tel],
+#ui input[type=number],
 #ui textarea,
 #ui select {
   margin-bottom: 10px;
+}
+#ui input[type="color"],
+#ui input[type=date],
+#ui input[type=month] {
+  width: 40%;
+}
+#ui input[type="checkbox"],
+#ui input[type="radio"] {
+  display: inline;
 }
 #ui .navbar-toggle .fa {
   font-size: 26px;
@@ -1143,6 +1160,9 @@ body {
 }
 #ui form fieldset {
   border: none;
+}
+#ui fieldset > div {
+  margin-bottom: 10px;
 }
 #ui .select {
   position: relative;
