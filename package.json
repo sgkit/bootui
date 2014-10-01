@@ -2,7 +2,7 @@
   "name": "bootui",
   "version": "0.0.0",
   "description": "A semantic bootstrap ui kit",
-  "main": "gulpfile.js",
+  "main": "gulpfile.scripts",
   "scripts": {
     "test": "default"
   },
