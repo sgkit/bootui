@@ -32,8 +32,9 @@
         });
 
         $(element).parent().tooltip({
-                title: "Click to View or Copy Code",
-                placement : "bottom"
+                title: "<p>Click to view/copy code</p>",
+                placement : "bottom",
+                html: true
             }
         );
 
