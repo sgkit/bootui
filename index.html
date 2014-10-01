@@ -16,10 +16,10 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <i type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-bars"></i>
-            </button>
+            </i>
             <a class="navbar-brand" href="#">Bootstrap theme</a>
         </div>
         <div class="navbar-collapse collapse">
@@ -49,8 +49,9 @@
         <div>
             <div class="contain">
                 <h1>BOOT/UI</h1>
-
-                <p class="lead">A semantic Bootstrap UI toolkit for Frontend Developers and Designers</p>
+                <p class="lead">
+                    A semantic Bootstrap UI toolkit for Frontend Developers and Designers
+                </p>
             </div>
         </div>
     </div>
@@ -120,16 +121,16 @@
                         <fieldset>
                             <legend>Personal details</legend>
                             <div>
-                                <label>First Name</label>
-                                    <input id="given-name" name="given-name" type="text" placeholder="First name only" required="" autofocus="">
+                                <label for="given-name">First Name</label>
+                                    <input id="given-name" name="given-name" type="text" placeholder="First name only"  autofocus="" required>
                             </div>
                             <div>
                                 <label>Last Name</label>
-                                    <input id="family-name" name="family-name" type="text" placeholder="Last name only" required="" autofocus="">
+                                    <input id="family-name" name="family-name" type="text" placeholder="Last name only"  autofocus="" required>
                             </div>
                             <div>
                                 <label>Date of Birth</label>
-                                    <input id="dob" name="dob" type="date" required="">
+                                    <input id="dob" name="dob" type="date" required>
                             </div>
                             <div>
                                 <label>Email</label>
@@ -183,6 +184,24 @@
                                     <input id="expiry" name="expiry" type="month">
                             </div>
                       </fieldset>
+                        <fieldset>
+                            <legend>Contact Us</legend>
+                            <div><label for="name">Full Name</label>
+                                <input type="text" id="name"/>
+                            </div>
+                            <div>
+                                <label for="email">Email Add.</label>
+                                <input type="email"/>
+                            </div>
+                            <div>
+                                <textarea name="" id="comment" cols="30" rows="10">
+                                </textarea>
+                            </div>
+                            <div class="div">
+                                <button type="submit">Submit</button>
+                            </div>
+
+                        </fieldset>
                     </aside>
                     <aside class="four">
                         <header>
