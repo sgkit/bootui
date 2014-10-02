@@ -51,7 +51,8 @@
   line-height: 1.33;
   border-radius: 3px;
 }
-#ui button {
+#ui button,
+#ui button.collapsed {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -1174,7 +1175,7 @@ body {
 #ui select[required]::after {
   content: '*';
 }
-#ui button .navbar-toggle.collapsed {
+#ui button.collapsed {
   display: none;
 }
 #ui :required {
