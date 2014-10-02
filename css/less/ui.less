@@ -10,6 +10,7 @@
 @import "ui-mixins";
 @import "ui-mobile";
 @import "style-guide/type";
+@import "ui-nav";
 @import "mixins";
 
 
@@ -135,11 +136,10 @@ body{
  }
 
 }
-  button:extend(.btn){
 
-    &.collapsed {
-      display: none;
-    }
+
+  .button, button{
+    &:extend(.btn);
 
   }
   :required {
@@ -164,7 +164,17 @@ body{
     padding-right: @padding;
   }
 
+  nav{
+    &:extend(.navbar);
+    &.top {
+      &:extend(.navbar-fixed-top all);
+    }
+    .brand {
+      &:extend(.navbar-brand);
+    }
+    .bar:extend(.navbar-nav all){};
 
+  }
 
   .navbar-toggle .fa {
     .font-size(@medium);
@@ -194,6 +204,8 @@ body{
     }
   }
  // @import "ui-select";
+
+
 
 }
 
