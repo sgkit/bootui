@@ -1,5 +1,4 @@
 //************** Shawn Sandy - created 09/04/2014 ******************/
-
 @import "../../bower_components/bootstrap/less/variables";
 @import (reference) "../../bower_components/bootstrap/less/bootstrap.less";
 //@import "../../../bower_components/bootstrap/less/grid";
@@ -8,52 +7,51 @@
 .sections() {
 
   p, aside, label {
+
     margin-bottom: @margins;
   }
 
-    section&, header&, footer&, main&  {
+  section&, header&, footer&, main& {
 
-      div {
+    div {
+
+      //.container-fixed();
+
+      &.contain {
 
         //.container-fixed();
 
-        &.contain {
-
-          //.container-fixed();
-
-          @media (min-width: @screen-sm-min) {
-            width: @container-sm;
-          }
-          @media (min-width: @screen-md-min) {
-            width: @container-md;
-          }
-          @media (min-width: @screen-lg-min) {
-            width: @container-lg;
-          }
-
+        @media (min-width: @screen-sm-min) {
+          width: @container-sm;
         }
-
+        @media (min-width: @screen-md-min) {
+          width: @container-md;
+        }
+        @media (min-width: @screen-lg-min) {
+          width: @container-lg;
+        }
 
       }
 
-}
+    }
+
+  }
   .blocks {
     .make-row();
   }
 
-
-
 }
-
 
 //article { @extend .col-lg-9; }
 
 .blog() {
 
-  .blog{
+  .blog {
     .post {
       .cols(8);
-      &.single.page{ .cols(12) }
+      &.single.page {
+        .cols(12)
+      }
     }
     .sidebar {
       .cols(4);
@@ -62,7 +60,7 @@
 
 }
 
-.cols(@desktop, @tablet:12, @phone:12){
+.cols(@desktop, @tablet:12, @phone:12) {
   .make-xs-column(@phone);
   .make-sm-column(@tablet);
   .make-md-column(@desktop);
@@ -71,32 +69,30 @@
 
 //bootstrap-ui semantic column
 
-.semantic-columns(@name, @col){
+.semantic-columns(@name, @col) {
 
- .@{name}{
+  .@{name} {
     &.columns {
       > aside, > ul > li, > div {
-        .cols(@col,@col,@col);
+        .cols(@col, @col, @col);
       }
     }
   }
 
- }
+}
 
+.column-width(@name,@width) {
+  //make-row();
+  .cols.wide, .cw {
 
-.column-width(@name,@width){
-//make-row();
- .cols.wide, .cw {
-
-   .@{name} {
-    .cols(@width, 12, 12);
-   }
- }
+    .@{name} {
+      .cols(@width, 12, 12);
+    }
+  }
 
 }
 
-
-.position-vertically(){
+.position-vertically() {
 
   .position.middle {
     display: table;

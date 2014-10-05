@@ -5,6 +5,10 @@
 *
 *******************/
 @media print {
+  #ui p {
+    orphans: 3;
+    widows: 3;
+  }
   #ui nav {
     display: none;
   }
@@ -17,6 +21,12 @@
   width: 100% \9;
   max-width: 100%;
   height: auto;
+}
+#ui p {
+  margin: 0 0 10px;
+}
+blockquote #ui p:last-child {
+  margin-bottom: 0;
 }
 #ui input[type=text],
 #ui input[type=email],
@@ -349,6 +359,17 @@
     background-color: transparent;
   }
 }
+.jumbotron #ui p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.alert > #ui p {
+  margin-bottom: 0;
+}
+.alert > #ui p + #ui p {
+  margin-top: 5px;
+}
 .dl-horizontal dd:before,
 .dl-horizontal dd:after,
 .container:before,
@@ -430,7 +451,8 @@ use full theme mixins
 }
 .bootui p,
 .bootui aside,
-.bootui label {
+.bootui label,
+.bootui #ui p {
   margin-bottom: 10px;
 }
 @media (min-width: 768px) {
@@ -1551,7 +1573,8 @@ footer h1 {
   font-size: 1.6rem;
   font-weight: bolder;
 }
-p {
+p,
+#ui p {
   font-size: 16px;
   font-size: 1.6rem;
 }
