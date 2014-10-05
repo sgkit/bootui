@@ -164,17 +164,8 @@ body{
     padding-right: @padding;
   }
 
-  nav{
-    &:extend(.navbar);
-    &.top {
-      &:extend(.navbar-fixed-top all);
-    }
-    .brand {
-      &:extend(.navbar-brand);
-    }
-    .bar:extend(.navbar-nav all){};
+  .ui-nav();
 
-  }
 
   .navbar-toggle .fa {
     .font-size(@medium);
@@ -189,6 +180,7 @@ body{
     fieldset {
       border: none;
       &:extend(.fieldset);
+
     }
 
     textarea {
