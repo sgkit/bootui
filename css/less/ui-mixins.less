@@ -36,8 +36,8 @@
     }
 
   }
-  .blocks {
-    .make-row();
+  .row {
+    &:extend(.row all);
   }
 
 }
@@ -88,6 +88,7 @@
     .@{name} {
       .cols(@width, 12, 12);
     }
+
   }
 
 }

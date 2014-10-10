@@ -277,6 +277,10 @@
 blockquote #ui p:last-child {
   margin-bottom: 0;
 }
+.bootui .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 #ui input[type=text],
 #ui input[type=email],
 #ui input[type=url],
@@ -394,8 +398,8 @@ blockquote #ui p:last-child {
 .modal-footer:after,
 .bootui .contain:before,
 .bootui .contain:after,
-.bootui .blocks:before,
-.bootui .blocks:after,
+.bootui .row:before,
+.bootui .row:after,
 #ui nav:before,
 #ui nav:after {
   content: " ";
@@ -416,7 +420,7 @@ blockquote #ui p:last-child {
 .panel-body:after,
 .modal-footer:after,
 .bootui .contain:after,
-.bootui .blocks:after,
+.bootui .row:after,
 #ui nav:after {
   clear: both;
 }
@@ -478,10 +482,6 @@ use full theme mixins
   main.bootui div.contain {
     width: 1170px;
   }
-}
-.bootui .blocks {
-  margin-left: -15px;
-  margin-right: -15px;
 }
 .bootui .blog .post {
   float: left;
