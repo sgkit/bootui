@@ -72,8 +72,8 @@ figure {
 /* ---- header ---- */
 #ui > header,
 [role="header"] {
-  height: 320px;
-  min-height: 320px;
+  height: 280px;
+  min-height: 280px;
   text-align: center;
   background-color: #f2f2f2;
   color: #808080;
@@ -83,7 +83,7 @@ figure {
 }
 .home #ui > header,
 .home [role="header"] {
-  height: 500px;
+  height: 380px;
 }
 #ui > header h1,
 [role="header"] h1 {
