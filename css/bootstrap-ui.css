@@ -189,17 +189,24 @@
     background-color: transparent;
   }
 }
-.navbar-default #ui .link {
+.navbar-default #ui button .link,
+.navbar-default #ui .button .link {
   color: #777777;
 }
-.navbar-default #ui .link:hover,
-.navbar-default #ui .link:focus {
+.navbar-default #ui button .link:hover,
+.navbar-default #ui button .link:focus,
+.navbar-default #ui .button .link:hover,
+.navbar-default #ui .button .link:focus {
   color: #333333;
 }
-.navbar-default #ui .link[disabled]:hover,
-fieldset[disabled] .navbar-default #ui .link:hover,
-.navbar-default #ui .link[disabled]:focus,
-fieldset[disabled] .navbar-default #ui .link:focus {
+.navbar-default #ui button .link[disabled]:hover,
+fieldset[disabled] .navbar-default #ui button .link:hover,
+.navbar-default #ui button .link[disabled]:focus,
+fieldset[disabled] .navbar-default #ui button .link:focus,
+.navbar-default #ui .button .link[disabled]:hover,
+fieldset[disabled] .navbar-default #ui .button .link:hover,
+.navbar-default #ui .button .link[disabled]:focus,
+fieldset[disabled] .navbar-default #ui .button .link:focus {
   color: #cccccc;
 }
 .navbar-inverse #ui nav .bar > li > a {
@@ -266,17 +273,24 @@ fieldset[disabled] .navbar-default #ui .link:focus {
     background-color: transparent;
   }
 }
-.navbar-inverse #ui .link {
+.navbar-inverse #ui button .link,
+.navbar-inverse #ui .button .link {
   color: #999999;
 }
-.navbar-inverse #ui .link:hover,
-.navbar-inverse #ui .link:focus {
+.navbar-inverse #ui button .link:hover,
+.navbar-inverse #ui button .link:focus,
+.navbar-inverse #ui .button .link:hover,
+.navbar-inverse #ui .button .link:focus {
   color: #ffffff;
 }
-.navbar-inverse #ui .link[disabled]:hover,
-fieldset[disabled] .navbar-inverse #ui .link:hover,
-.navbar-inverse #ui .link[disabled]:focus,
-fieldset[disabled] .navbar-inverse #ui .link:focus {
+.navbar-inverse #ui button .link[disabled]:hover,
+fieldset[disabled] .navbar-inverse #ui button .link:hover,
+.navbar-inverse #ui button .link[disabled]:focus,
+fieldset[disabled] .navbar-inverse #ui button .link:focus,
+.navbar-inverse #ui .button .link[disabled]:hover,
+fieldset[disabled] .navbar-inverse #ui .button .link:hover,
+.navbar-inverse #ui .button .link[disabled]:focus,
+fieldset[disabled] .navbar-inverse #ui .button .link:focus {
   color: #444444;
 }
 @media print {
@@ -286,6 +300,9 @@ fieldset[disabled] .navbar-inverse #ui .link:focus {
   }
   #ui nav {
     display: none;
+  }
+  #ui .label {
+    border: 1px solid #000;
   }
 }
 .thumbnail > img,
@@ -365,282 +382,447 @@ blockquote #ui p:last-child {
   -ms-user-select: none;
   user-select: none;
 }
-#ui .default {
+#ui button .default,
+#ui .button .default {
   color: #333333;
   background-color: #ffffff;
   border-color: #cccccc;
 }
-#ui .default:hover,
-#ui .default:focus,
-#ui .default:active,
-#ui .default.active,
-.open > .dropdown-toggle#ui .default {
+#ui button .default:hover,
+#ui button .default:focus,
+#ui button .default:active,
+#ui button .default.active,
+.open > .dropdown-toggle#ui button .default,
+#ui .button .default:hover,
+#ui .button .default:focus,
+#ui .button .default:active,
+#ui .button .default.active,
+.open > .dropdown-toggle#ui .button .default {
   color: #333333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
-#ui .default:active,
-#ui .default.active,
-.open > .dropdown-toggle#ui .default {
+#ui button .default:active,
+#ui button .default.active,
+.open > .dropdown-toggle#ui button .default,
+#ui .button .default:active,
+#ui .button .default.active,
+.open > .dropdown-toggle#ui .button .default {
   background-image: none;
 }
-#ui .default.disabled,
-#ui .default[disabled],
-fieldset[disabled] #ui .default,
-#ui .default.disabled:hover,
-#ui .default[disabled]:hover,
-fieldset[disabled] #ui .default:hover,
-#ui .default.disabled:focus,
-#ui .default[disabled]:focus,
-fieldset[disabled] #ui .default:focus,
-#ui .default.disabled:active,
-#ui .default[disabled]:active,
-fieldset[disabled] #ui .default:active,
-#ui .default.disabled.active,
-#ui .default[disabled].active,
-fieldset[disabled] #ui .default.active {
+#ui button .default.disabled,
+#ui button .default[disabled],
+fieldset[disabled] #ui button .default,
+#ui button .default.disabled:hover,
+#ui button .default[disabled]:hover,
+fieldset[disabled] #ui button .default:hover,
+#ui button .default.disabled:focus,
+#ui button .default[disabled]:focus,
+fieldset[disabled] #ui button .default:focus,
+#ui button .default.disabled:active,
+#ui button .default[disabled]:active,
+fieldset[disabled] #ui button .default:active,
+#ui button .default.disabled.active,
+#ui button .default[disabled].active,
+fieldset[disabled] #ui button .default.active,
+#ui .button .default.disabled,
+#ui .button .default[disabled],
+fieldset[disabled] #ui .button .default,
+#ui .button .default.disabled:hover,
+#ui .button .default[disabled]:hover,
+fieldset[disabled] #ui .button .default:hover,
+#ui .button .default.disabled:focus,
+#ui .button .default[disabled]:focus,
+fieldset[disabled] #ui .button .default:focus,
+#ui .button .default.disabled:active,
+#ui .button .default[disabled]:active,
+fieldset[disabled] #ui .button .default:active,
+#ui .button .default.disabled.active,
+#ui .button .default[disabled].active,
+fieldset[disabled] #ui .button .default.active {
   background-color: #ffffff;
   border-color: #cccccc;
 }
-#ui .default .badge {
+#ui button .default .badge,
+#ui .button .default .badge {
   color: #ffffff;
   background-color: #333333;
 }
-#ui .primary {
+#ui button .primary,
+#ui .button .primary {
   color: #ffffff;
   background-color: #428bca;
   border-color: #357ebd;
 }
-#ui .primary:hover,
-#ui .primary:focus,
-#ui .primary:active,
-#ui .primary.active,
-.open > .dropdown-toggle#ui .primary {
+#ui button .primary:hover,
+#ui button .primary:focus,
+#ui button .primary:active,
+#ui button .primary.active,
+.open > .dropdown-toggle#ui button .primary,
+#ui .button .primary:hover,
+#ui .button .primary:focus,
+#ui .button .primary:active,
+#ui .button .primary.active,
+.open > .dropdown-toggle#ui .button .primary {
   color: #ffffff;
   background-color: #3071a9;
   border-color: #285e8e;
 }
-#ui .primary:active,
-#ui .primary.active,
-.open > .dropdown-toggle#ui .primary {
+#ui button .primary:active,
+#ui button .primary.active,
+.open > .dropdown-toggle#ui button .primary,
+#ui .button .primary:active,
+#ui .button .primary.active,
+.open > .dropdown-toggle#ui .button .primary {
   background-image: none;
 }
-#ui .primary.disabled,
-#ui .primary[disabled],
-fieldset[disabled] #ui .primary,
-#ui .primary.disabled:hover,
-#ui .primary[disabled]:hover,
-fieldset[disabled] #ui .primary:hover,
-#ui .primary.disabled:focus,
-#ui .primary[disabled]:focus,
-fieldset[disabled] #ui .primary:focus,
-#ui .primary.disabled:active,
-#ui .primary[disabled]:active,
-fieldset[disabled] #ui .primary:active,
-#ui .primary.disabled.active,
-#ui .primary[disabled].active,
-fieldset[disabled] #ui .primary.active {
+#ui button .primary.disabled,
+#ui button .primary[disabled],
+fieldset[disabled] #ui button .primary,
+#ui button .primary.disabled:hover,
+#ui button .primary[disabled]:hover,
+fieldset[disabled] #ui button .primary:hover,
+#ui button .primary.disabled:focus,
+#ui button .primary[disabled]:focus,
+fieldset[disabled] #ui button .primary:focus,
+#ui button .primary.disabled:active,
+#ui button .primary[disabled]:active,
+fieldset[disabled] #ui button .primary:active,
+#ui button .primary.disabled.active,
+#ui button .primary[disabled].active,
+fieldset[disabled] #ui button .primary.active,
+#ui .button .primary.disabled,
+#ui .button .primary[disabled],
+fieldset[disabled] #ui .button .primary,
+#ui .button .primary.disabled:hover,
+#ui .button .primary[disabled]:hover,
+fieldset[disabled] #ui .button .primary:hover,
+#ui .button .primary.disabled:focus,
+#ui .button .primary[disabled]:focus,
+fieldset[disabled] #ui .button .primary:focus,
+#ui .button .primary.disabled:active,
+#ui .button .primary[disabled]:active,
+fieldset[disabled] #ui .button .primary:active,
+#ui .button .primary.disabled.active,
+#ui .button .primary[disabled].active,
+fieldset[disabled] #ui .button .primary.active {
   background-color: #428bca;
   border-color: #357ebd;
 }
-#ui .primary .badge {
+#ui button .primary .badge,
+#ui .button .primary .badge {
   color: #428bca;
   background-color: #ffffff;
 }
-#ui .success {
+#ui button .success,
+#ui .button .success {
   color: #ffffff;
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
-#ui .success:hover,
-#ui .success:focus,
-#ui .success:active,
-#ui .success.active,
-.open > .dropdown-toggle#ui .success {
+#ui button .success:hover,
+#ui button .success:focus,
+#ui button .success:active,
+#ui button .success.active,
+.open > .dropdown-toggle#ui button .success,
+#ui .button .success:hover,
+#ui .button .success:focus,
+#ui .button .success:active,
+#ui .button .success.active,
+.open > .dropdown-toggle#ui .button .success {
   color: #ffffff;
   background-color: #449d44;
   border-color: #398439;
 }
-#ui .success:active,
-#ui .success.active,
-.open > .dropdown-toggle#ui .success {
+#ui button .success:active,
+#ui button .success.active,
+.open > .dropdown-toggle#ui button .success,
+#ui .button .success:active,
+#ui .button .success.active,
+.open > .dropdown-toggle#ui .button .success {
   background-image: none;
 }
-#ui .success.disabled,
-#ui .success[disabled],
-fieldset[disabled] #ui .success,
-#ui .success.disabled:hover,
-#ui .success[disabled]:hover,
-fieldset[disabled] #ui .success:hover,
-#ui .success.disabled:focus,
-#ui .success[disabled]:focus,
-fieldset[disabled] #ui .success:focus,
-#ui .success.disabled:active,
-#ui .success[disabled]:active,
-fieldset[disabled] #ui .success:active,
-#ui .success.disabled.active,
-#ui .success[disabled].active,
-fieldset[disabled] #ui .success.active {
+#ui button .success.disabled,
+#ui button .success[disabled],
+fieldset[disabled] #ui button .success,
+#ui button .success.disabled:hover,
+#ui button .success[disabled]:hover,
+fieldset[disabled] #ui button .success:hover,
+#ui button .success.disabled:focus,
+#ui button .success[disabled]:focus,
+fieldset[disabled] #ui button .success:focus,
+#ui button .success.disabled:active,
+#ui button .success[disabled]:active,
+fieldset[disabled] #ui button .success:active,
+#ui button .success.disabled.active,
+#ui button .success[disabled].active,
+fieldset[disabled] #ui button .success.active,
+#ui .button .success.disabled,
+#ui .button .success[disabled],
+fieldset[disabled] #ui .button .success,
+#ui .button .success.disabled:hover,
+#ui .button .success[disabled]:hover,
+fieldset[disabled] #ui .button .success:hover,
+#ui .button .success.disabled:focus,
+#ui .button .success[disabled]:focus,
+fieldset[disabled] #ui .button .success:focus,
+#ui .button .success.disabled:active,
+#ui .button .success[disabled]:active,
+fieldset[disabled] #ui .button .success:active,
+#ui .button .success.disabled.active,
+#ui .button .success[disabled].active,
+fieldset[disabled] #ui .button .success.active {
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
-#ui .success .badge {
+#ui button .success .badge,
+#ui .button .success .badge {
   color: #5cb85c;
   background-color: #ffffff;
 }
-#ui .info {
+#ui button .info,
+#ui .button .info {
   color: #ffffff;
   background-color: #5bc0de;
   border-color: #46b8da;
 }
-#ui .info:hover,
-#ui .info:focus,
-#ui .info:active,
-#ui .info.active,
-.open > .dropdown-toggle#ui .info {
+#ui button .info:hover,
+#ui button .info:focus,
+#ui button .info:active,
+#ui button .info.active,
+.open > .dropdown-toggle#ui button .info,
+#ui .button .info:hover,
+#ui .button .info:focus,
+#ui .button .info:active,
+#ui .button .info.active,
+.open > .dropdown-toggle#ui .button .info {
   color: #ffffff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
-#ui .info:active,
-#ui .info.active,
-.open > .dropdown-toggle#ui .info {
+#ui button .info:active,
+#ui button .info.active,
+.open > .dropdown-toggle#ui button .info,
+#ui .button .info:active,
+#ui .button .info.active,
+.open > .dropdown-toggle#ui .button .info {
   background-image: none;
 }
-#ui .info.disabled,
-#ui .info[disabled],
-fieldset[disabled] #ui .info,
-#ui .info.disabled:hover,
-#ui .info[disabled]:hover,
-fieldset[disabled] #ui .info:hover,
-#ui .info.disabled:focus,
-#ui .info[disabled]:focus,
-fieldset[disabled] #ui .info:focus,
-#ui .info.disabled:active,
-#ui .info[disabled]:active,
-fieldset[disabled] #ui .info:active,
-#ui .info.disabled.active,
-#ui .info[disabled].active,
-fieldset[disabled] #ui .info.active {
+#ui button .info.disabled,
+#ui button .info[disabled],
+fieldset[disabled] #ui button .info,
+#ui button .info.disabled:hover,
+#ui button .info[disabled]:hover,
+fieldset[disabled] #ui button .info:hover,
+#ui button .info.disabled:focus,
+#ui button .info[disabled]:focus,
+fieldset[disabled] #ui button .info:focus,
+#ui button .info.disabled:active,
+#ui button .info[disabled]:active,
+fieldset[disabled] #ui button .info:active,
+#ui button .info.disabled.active,
+#ui button .info[disabled].active,
+fieldset[disabled] #ui button .info.active,
+#ui .button .info.disabled,
+#ui .button .info[disabled],
+fieldset[disabled] #ui .button .info,
+#ui .button .info.disabled:hover,
+#ui .button .info[disabled]:hover,
+fieldset[disabled] #ui .button .info:hover,
+#ui .button .info.disabled:focus,
+#ui .button .info[disabled]:focus,
+fieldset[disabled] #ui .button .info:focus,
+#ui .button .info.disabled:active,
+#ui .button .info[disabled]:active,
+fieldset[disabled] #ui .button .info:active,
+#ui .button .info.disabled.active,
+#ui .button .info[disabled].active,
+fieldset[disabled] #ui .button .info.active {
   background-color: #5bc0de;
   border-color: #46b8da;
 }
-#ui .info .badge {
+#ui button .info .badge,
+#ui .button .info .badge {
   color: #5bc0de;
   background-color: #ffffff;
 }
-#ui .warning {
+#ui button .warning,
+#ui .button .warning {
   color: #ffffff;
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-#ui .warning:hover,
-#ui .warning:focus,
-#ui .warning:active,
-#ui .warning.active,
-.open > .dropdown-toggle#ui .warning {
+#ui button .warning:hover,
+#ui button .warning:focus,
+#ui button .warning:active,
+#ui button .warning.active,
+.open > .dropdown-toggle#ui button .warning,
+#ui .button .warning:hover,
+#ui .button .warning:focus,
+#ui .button .warning:active,
+#ui .button .warning.active,
+.open > .dropdown-toggle#ui .button .warning {
   color: #ffffff;
   background-color: #ec971f;
   border-color: #d58512;
 }
-#ui .warning:active,
-#ui .warning.active,
-.open > .dropdown-toggle#ui .warning {
+#ui button .warning:active,
+#ui button .warning.active,
+.open > .dropdown-toggle#ui button .warning,
+#ui .button .warning:active,
+#ui .button .warning.active,
+.open > .dropdown-toggle#ui .button .warning {
   background-image: none;
 }
-#ui .warning.disabled,
-#ui .warning[disabled],
-fieldset[disabled] #ui .warning,
-#ui .warning.disabled:hover,
-#ui .warning[disabled]:hover,
-fieldset[disabled] #ui .warning:hover,
-#ui .warning.disabled:focus,
-#ui .warning[disabled]:focus,
-fieldset[disabled] #ui .warning:focus,
-#ui .warning.disabled:active,
-#ui .warning[disabled]:active,
-fieldset[disabled] #ui .warning:active,
-#ui .warning.disabled.active,
-#ui .warning[disabled].active,
-fieldset[disabled] #ui .warning.active {
+#ui button .warning.disabled,
+#ui button .warning[disabled],
+fieldset[disabled] #ui button .warning,
+#ui button .warning.disabled:hover,
+#ui button .warning[disabled]:hover,
+fieldset[disabled] #ui button .warning:hover,
+#ui button .warning.disabled:focus,
+#ui button .warning[disabled]:focus,
+fieldset[disabled] #ui button .warning:focus,
+#ui button .warning.disabled:active,
+#ui button .warning[disabled]:active,
+fieldset[disabled] #ui button .warning:active,
+#ui button .warning.disabled.active,
+#ui button .warning[disabled].active,
+fieldset[disabled] #ui button .warning.active,
+#ui .button .warning.disabled,
+#ui .button .warning[disabled],
+fieldset[disabled] #ui .button .warning,
+#ui .button .warning.disabled:hover,
+#ui .button .warning[disabled]:hover,
+fieldset[disabled] #ui .button .warning:hover,
+#ui .button .warning.disabled:focus,
+#ui .button .warning[disabled]:focus,
+fieldset[disabled] #ui .button .warning:focus,
+#ui .button .warning.disabled:active,
+#ui .button .warning[disabled]:active,
+fieldset[disabled] #ui .button .warning:active,
+#ui .button .warning.disabled.active,
+#ui .button .warning[disabled].active,
+fieldset[disabled] #ui .button .warning.active {
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-#ui .warning .badge {
+#ui button .warning .badge,
+#ui .button .warning .badge {
   color: #f0ad4e;
   background-color: #ffffff;
 }
-#ui .danger {
+#ui button .danger,
+#ui .button .danger {
   color: #ffffff;
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-#ui .danger:hover,
-#ui .danger:focus,
-#ui .danger:active,
-#ui .danger.active,
-.open > .dropdown-toggle#ui .danger {
+#ui button .danger:hover,
+#ui button .danger:focus,
+#ui button .danger:active,
+#ui button .danger.active,
+.open > .dropdown-toggle#ui button .danger,
+#ui .button .danger:hover,
+#ui .button .danger:focus,
+#ui .button .danger:active,
+#ui .button .danger.active,
+.open > .dropdown-toggle#ui .button .danger {
   color: #ffffff;
   background-color: #c9302c;
   border-color: #ac2925;
 }
-#ui .danger:active,
-#ui .danger.active,
-.open > .dropdown-toggle#ui .danger {
+#ui button .danger:active,
+#ui button .danger.active,
+.open > .dropdown-toggle#ui button .danger,
+#ui .button .danger:active,
+#ui .button .danger.active,
+.open > .dropdown-toggle#ui .button .danger {
   background-image: none;
 }
-#ui .danger.disabled,
-#ui .danger[disabled],
-fieldset[disabled] #ui .danger,
-#ui .danger.disabled:hover,
-#ui .danger[disabled]:hover,
-fieldset[disabled] #ui .danger:hover,
-#ui .danger.disabled:focus,
-#ui .danger[disabled]:focus,
-fieldset[disabled] #ui .danger:focus,
-#ui .danger.disabled:active,
-#ui .danger[disabled]:active,
-fieldset[disabled] #ui .danger:active,
-#ui .danger.disabled.active,
-#ui .danger[disabled].active,
-fieldset[disabled] #ui .danger.active {
+#ui button .danger.disabled,
+#ui button .danger[disabled],
+fieldset[disabled] #ui button .danger,
+#ui button .danger.disabled:hover,
+#ui button .danger[disabled]:hover,
+fieldset[disabled] #ui button .danger:hover,
+#ui button .danger.disabled:focus,
+#ui button .danger[disabled]:focus,
+fieldset[disabled] #ui button .danger:focus,
+#ui button .danger.disabled:active,
+#ui button .danger[disabled]:active,
+fieldset[disabled] #ui button .danger:active,
+#ui button .danger.disabled.active,
+#ui button .danger[disabled].active,
+fieldset[disabled] #ui button .danger.active,
+#ui .button .danger.disabled,
+#ui .button .danger[disabled],
+fieldset[disabled] #ui .button .danger,
+#ui .button .danger.disabled:hover,
+#ui .button .danger[disabled]:hover,
+fieldset[disabled] #ui .button .danger:hover,
+#ui .button .danger.disabled:focus,
+#ui .button .danger[disabled]:focus,
+fieldset[disabled] #ui .button .danger:focus,
+#ui .button .danger.disabled:active,
+#ui .button .danger[disabled]:active,
+fieldset[disabled] #ui .button .danger:active,
+#ui .button .danger.disabled.active,
+#ui .button .danger[disabled].active,
+fieldset[disabled] #ui .button .danger.active {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-#ui .danger .badge {
+#ui button .danger .badge,
+#ui .button .danger .badge {
   color: #d9534f;
   background-color: #ffffff;
 }
-#ui .link {
+#ui button .link,
+#ui .button .link {
   color: #428bca;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
 }
-#ui .link,
-#ui .link:active,
-#ui .link[disabled],
-fieldset[disabled] #ui .link {
+#ui button .link,
+#ui button .link:active,
+#ui button .link[disabled],
+fieldset[disabled] #ui button .link,
+#ui .button .link,
+#ui .button .link:active,
+#ui .button .link[disabled],
+fieldset[disabled] #ui .button .link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-#ui .link,
-#ui .link:hover,
-#ui .link:focus,
-#ui .link:active {
+#ui button .link,
+#ui button .link:hover,
+#ui button .link:focus,
+#ui button .link:active,
+#ui .button .link,
+#ui .button .link:hover,
+#ui .button .link:focus,
+#ui .button .link:active {
   border-color: transparent;
 }
-#ui .link:hover,
-#ui .link:focus {
+#ui button .link:hover,
+#ui button .link:focus,
+#ui .button .link:hover,
+#ui .button .link:focus {
   color: #2a6496;
   text-decoration: underline;
   background-color: transparent;
 }
-#ui .link[disabled]:hover,
-fieldset[disabled] #ui .link:hover,
-#ui .link[disabled]:focus,
-fieldset[disabled] #ui .link:focus {
+#ui button .link[disabled]:hover,
+fieldset[disabled] #ui button .link:hover,
+#ui button .link[disabled]:focus,
+fieldset[disabled] #ui button .link:focus,
+#ui .button .link[disabled]:hover,
+fieldset[disabled] #ui .button .link:hover,
+#ui .button .link[disabled]:focus,
+fieldset[disabled] #ui .button .link:focus {
   color: #999999;
   text-decoration: none;
 }
@@ -668,9 +850,60 @@ fieldset[disabled] #ui .link:focus {
   line-height: 1.5;
   border-radius: 1px;
 }
-.btn-group.open .dropdown-toggle#ui .link {
+.btn-group.open .dropdown-toggle#ui button .link,
+.btn-group.open .dropdown-toggle#ui .button .link {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+#ui .label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+#ui .label.default {
+  background-color: #999999;
+}
+#ui .label.primary {
+  background-color: #428bca;
+}
+#ui .label.primary[href]:hover,
+#ui .label.primary[href]:focus {
+  background-color: #3071a9;
+}
+#ui .label.success {
+  background-color: #5cb85c;
+}
+#ui .label.success[href]:hover,
+#ui .label.success[href]:focus {
+  background-color: #449d44;
+}
+#ui .label.info {
+  background-color: #5bc0de;
+}
+#ui .label.info[href]:hover,
+#ui .label.info[href]:focus {
+  background-color: #31b0d5;
+}
+#ui .label.warning {
+  background-color: #f0ad4e;
+}
+#ui .label.warning[href]:hover,
+#ui .label.warning[href]:focus {
+  background-color: #ec971f;
+}
+#ui .label.danger {
+  background-color: #d9534f;
+}
+#ui .label.danger[href]:hover,
+#ui .label.danger[href]:focus {
+  background-color: #c9302c;
 }
 .jumbotron #ui p {
   margin-bottom: 15px;
