@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="fonts/open-sans/stylesheet.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
-<body>
+<body class="home">
 <div id="ui">
 <nav class="navbar navbar-default top navbar-fixed-top" role="navigation">
     <div class="container">
@@ -62,18 +62,20 @@
             <!--<div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>-->
             <!--<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>-->
         <!--</div>-->
-        <div class="blocks">
+        <div class="row">
 
 
-            <article class="cols wide view">
-                <header>
-                    <h1 class="xxlarge">Semantic Cols <code class="desktops small">(.cols.wide/.cw)</code></h1>
-                </header>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis dignissimos enim eveniet
-                    iure nobis obcaecati odit quisquam quo sit. Accusantium, dicta dolor dolore dolorum earum eveniet
-                    harum, minus neque officia reiciendis similique tempore, voluptatem!
-                </p>
+            <div class="cols wide view">
+                <div class="">
+                    <header>
+                        <h1 class="xxlarge">Semantic Cols <code class="desktops small">(.cols.wide/.cw)</code></h1>
+                    </header>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis dignissimos enim eveniet
+                        iure nobis obcaecati odit quisquam quo sit. Accusantium, dicta dolor dolore dolorum earum eveniet
+                        harum, minus neque officia reiciendis similique tempore, voluptatem!
+                    </p>
+                </div>
 
 
                 <aside class="eight">
@@ -103,10 +105,10 @@
                 </aside>
 
 
-            </article>
+            </div>
 
         </div>
-        <div class="blocks">
+        <div class="row">
             <form role="form" action="">
                 <article class="cw">
 
@@ -239,7 +241,7 @@
 <div class="contain theme-showcase" role="main">
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="blocks">
+<div class="row">
 
     <div class="desktops mobile">
         <div class="cols wide">
@@ -261,40 +263,40 @@
     <h1 class="xxlarge">Buttons</h1>
 </div>
 <p>
-    <button type="button" class="btn btn-lg btn-default">Default</button>
-    <button type="button" class="btn btn-lg btn-primary">Primary</button>
-    <button type="button" class="btn btn-lg btn-success">Success</button>
-    <button type="button" class="btn btn-lg btn-info">Info</button>
-    <button type="button" class="btn btn-lg btn-warning">Warning</button>
-    <button type="button" class="btn btn-lg btn-danger">Danger</button>
-    <button type="button" class="btn btn-lg btn-link">Link</button>
+    <button type="button" class="large default">Default</button>
+    <button type="button" class="large btn-primary">Primary</button>
+    <button type="button" class="large success">Success</button>
+    <button type="button" class="large info">Info</button>
+    <button type="button" class="large warning">Warning</button>
+    <button type="button" class="large danger">Danger</button>
+    <button type="button" class="large link">Link</button>
 </p>
 <p>
-    <button type="button" class="btn btn-default">Default</button>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-link">Link</button>
+    <button type="button" class="default">Default</button>
+    <button type="button" class="primary">Primary</button>
+    <button type="button" class="success">Success</button>
+    <button type="button" class="info">Info</button>
+    <button type="button" class="warning">Warning</button>
+    <button type="button" class="danger">Danger</button>
+    <button type="button" class="link">Link</button>
 </p>
 <p>
-    <button type="button" class="btn btn-sm btn-default">Default</button>
-    <button type="button" class="btn btn-sm btn-primary">Primary</button>
-    <button type="button" class="btn btn-sm btn-success">Success</button>
-    <button type="button" class="btn btn-sm btn-info">Info</button>
-    <button type="button" class="btn btn-sm btn-warning">Warning</button>
-    <button type="button" class="btn btn-sm btn-danger">Danger</button>
-    <button type="button" class="btn btn-sm btn-link">Link</button>
+    <button type="button" class="small default">Default</button>
+    <button type="button" class="small primary">Primary</button>
+    <button type="button" class="small success">Success</button>
+    <button type="button" class="small info">Info</button>
+    <button type="button" class="small warning">Warning</button>
+    <button type="button" class="small danger">Danger</button>
+    <button type="button" class="small link">Link</button>
 </p>
 <p>
-    <button type="button" class="btn btn-xs btn-default">Default</button>
-    <button type="button" class="btn btn-xs btn-primary">Primary</button>
-    <button type="button" class="btn btn-xs btn-success">Success</button>
-    <button type="button" class="btn btn-xs btn-info">Info</button>
-    <button type="button" class="btn btn-xs btn-warning">Warning</button>
-    <button type="button" class="btn btn-xs btn-danger">Danger</button>
-    <button type="button" class="btn btn-xs btn-link">Link</button>
+    <button type="button" class="tiny btn-default">Default</button>
+    <button type="button" class="tiny btn-primary">Primary</button>
+    <button type="button" class="tiny btn-success">Success</button>
+    <button type="button" class="tiny btn-info">Info</button>
+    <button type="button" class="tiny btn-warning">Warning</button>
+    <button type="button" class="tiny btn-danger">Danger</button>
+    <button type="button" class="tiny btn-link">Link</button>
 </p>
 
 
@@ -452,65 +454,22 @@
 </div>
 <div class="bootui">
 
-
-    <h1>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-    </h1>
-
-    <h2>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-    </h2>
-
     <h3>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
+        <span class="label default">Default</span>
+        <span class="label primary">Primary</span>
+        <span class="label success">Success</span>
+        <span class="label info">Info</span>
+        <span class="label warning">Warning</span>
+        <span class="label danger">Danger</span>
     </h3>
-    <h4>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-    </h4>
-    <h5>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-    </h5>
-    <h6>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
-    </h6>
 
     <p>
-        <span class="label label-default">Default</span>
-        <span class="label label-primary">Primary</span>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
+        <span class="label default">Default</span>
+        <span class="label primary">Primary</span>
+        <span class="label success">Success</span>
+        <span class="label info">Info</span>
+        <span class="label warning">Warning</span>
+        <span class="label danger">Danger</span>
     </p>
 
 </div>
@@ -873,8 +832,8 @@
     </div>
 </div>
 <!--scripts-->
-<script async src="bower_components/jquery/dist/jquery.min.js"></script>
-<script async src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script async src="assets/jquery/dist/jquery.min.js"></script>
+<script async src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
 <script async src="scripts/view-code.js"></script>
 <script async src="scripts/main.js"></script>
 </body>

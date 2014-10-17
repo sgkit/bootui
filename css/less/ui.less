@@ -10,6 +10,8 @@
 @import "style-guide/type";
 @import "ui-nav";
 @import "mixins";
+@import "ui-button";
+@import "ui-defaults";
 
 .bootui {
   .contain {
@@ -115,6 +117,10 @@ body {
     }
   }
 
+
+    //.button();
+
+
   .inline {
     display: inline;
 
@@ -137,10 +143,11 @@ body {
 
   }
 
-  .button, button {
-    &:extend(.btn);
 
-  }
+
+  .ui-button();
+
+
   :required {
     content: '*';
     border-bottom: 1px solid dotted !important;
@@ -192,7 +199,10 @@ body {
       margin-bottom: @margins;
     }
   }
+
   // @import "ui-select";
+
+  .ui-defaults;
 
 }
 

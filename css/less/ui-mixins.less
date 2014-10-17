@@ -1,6 +1,6 @@
 //************** Shawn Sandy - created 09/04/2014 ******************/
-@import "../../bower_components/bootstrap/less/variables";
-@import (reference) "../../bower_components/bootstrap/less/bootstrap.less";
+@import "../../assets/bootstrap/less/variables";
+@import (reference) "../../assets/bootstrap/less/bootstrap.less";
 //@import "../../../bower_components/bootstrap/less/grid";
 @import "theme-variables";
 
@@ -36,8 +36,10 @@
     }
 
   }
-  .blocks {
-    .make-row();
+  .row {
+
+    &:extend(.row all);
+
   }
 
 }
@@ -88,6 +90,7 @@
     .@{name} {
       .cols(@width, 12, 12);
     }
+
   }
 
 }
