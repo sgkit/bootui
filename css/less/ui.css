@@ -486,6 +486,39 @@ fieldset[disabled] #ui .button .danger.active {
   color: #d9534f;
   background-color: #ffffff;
 }
+#ui .link {
+  color: #428bca;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+#ui .link,
+#ui .link:active,
+#ui .link[disabled],
+fieldset[disabled] #ui .link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#ui .link,
+#ui .link:hover,
+#ui .link:focus,
+#ui .link:active {
+  border-color: transparent;
+}
+#ui .link:hover,
+#ui .link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#ui .link[disabled]:hover,
+fieldset[disabled] #ui .link:hover,
+#ui .link[disabled]:focus,
+fieldset[disabled] #ui .link:focus {
+  color: #777777;
+  text-decoration: none;
+}
 .btn-group-lg > .btn,
 #ui .button.large,
 #ui button.large {
@@ -509,6 +542,10 @@ fieldset[disabled] #ui .button .danger.active {
   font-size: 12px;
   line-height: 1.5;
   border-radius: 1px;
+}
+.btn-group.open .dropdown-toggle#ui .link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 #ui nav {
   position: relative;
@@ -701,6 +738,19 @@ fieldset[disabled] #ui .button .danger.active {
     background-color: transparent;
   }
 }
+.navbar-default #ui .link {
+  color: #777777;
+}
+.navbar-default #ui .link:hover,
+.navbar-default #ui .link:focus {
+  color: #333333;
+}
+.navbar-default #ui .link[disabled]:hover,
+fieldset[disabled] .navbar-default #ui .link:hover,
+.navbar-default #ui .link[disabled]:focus,
+fieldset[disabled] .navbar-default #ui .link:focus {
+  color: #cccccc;
+}
 .navbar-inverse #ui nav .bar > li > a {
   color: #777777;
 }
@@ -764,6 +814,19 @@ fieldset[disabled] #ui .button .danger.active {
     color: #444444;
     background-color: transparent;
   }
+}
+.navbar-inverse #ui .link {
+  color: #777777;
+}
+.navbar-inverse #ui .link:hover,
+.navbar-inverse #ui .link:focus {
+  color: #ffffff;
+}
+.navbar-inverse #ui .link[disabled]:hover,
+fieldset[disabled] .navbar-inverse #ui .link:hover,
+.navbar-inverse #ui .link[disabled]:focus,
+fieldset[disabled] .navbar-inverse #ui .link:focus {
+  color: #444444;
 }
 .jumbotron #ui p {
   margin-bottom: 15px;
