@@ -10,6 +10,7 @@
 @import "style-guide/type";
 @import "ui-nav";
 @import "mixins";
+@import "ui-button";
 
 .bootui {
   .contain {
@@ -115,6 +116,10 @@ body {
     }
   }
 
+
+    //.button();
+
+
   .inline {
     display: inline;
 
@@ -137,10 +142,11 @@ body {
 
   }
 
-  .button, button {
-    &:extend(.btn);
 
-  }
+
+  .button();
+
+
   :required {
     content: '*';
     border-bottom: 1px solid dotted !important;

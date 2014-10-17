@@ -90,19 +90,25 @@ blockquote #ui p:last-child {
   -ms-user-select: none;
   user-select: none;
 }
-.btn-group-lg > .btn {
+.btn-group-lg > .btn,
+#ui .button.large,
+#ui button.large {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
   border-radius: 3px;
 }
-.btn-group-sm > .btn {
+.btn-group-sm > .btn,
+#ui .button.small,
+#ui button.small {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 1px;
 }
-.btn-group-xs > .btn {
+.btn-group-xs > .btn,
+#ui .button.tiny,
+#ui button.tiny {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
