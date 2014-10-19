@@ -736,28 +736,42 @@ fieldset[disabled] #ui .link:focus {
   border: 1px solid transparent;
   border-radius: 2px;
 }
-.alert > #ui p {
+#ui .alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+#ui .alert .alert-link {
+  font-weight: bold;
+}
+.alert > #ui p,
+#ui .alert > p,
+#ui .alert > ul {
   margin-bottom: 0;
 }
-.alert > #ui p + #ui p {
+.alert > #ui p + #ui p,
+#ui .alert > p + p {
   margin-top: 5px;
 }
-#ui .alert.success {
+#ui .alert.success,
+#ui #ui .alert.success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #3c763d;
 }
-#ui .alert.info {
+#ui .alert.info,
+#ui #ui .alert.info {
   background-color: #d9edf7;
   border-color: #bce8f1;
   color: #31708f;
 }
-#ui .alert.warning {
+#ui .alert.warning,
+#ui #ui .alert.warning {
   background-color: #fcf8e3;
   border-color: #faebcc;
   color: #8a6d3b;
 }
-#ui .alert.danger {
+#ui .alert.danger,
+#ui #ui .alert.danger {
   background-color: #f2dede;
   border-color: #ebccd1;
   color: #a94442;
