@@ -15,6 +15,9 @@ body {
 }
 #ui {
   color: #404040;
+  padding-top: 0;
+}
+#ui.padding {
   padding-top: 100px;
 }
 h1,
