@@ -1903,7 +1903,7 @@ body {
   border: none;
 }
 #ui form textarea {
-  min-height: 200px;
+  min-height: 201px;
 }
 #ui fieldset > div {
   margin-bottom: 10px;
