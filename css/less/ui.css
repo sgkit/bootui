@@ -1908,81 +1908,81 @@ body {
 #ui fieldset > div {
   margin-bottom: 10px;
 }
-.headlines {
+#ui .headlines {
   font-size: 81px;
   font-size: 8.1rem;
 }
-.titles {
+#ui .titles {
   font-size: 72px;
   font-size: 7.2rem;
 }
-.subtitles {
+#ui .subtitles {
   font-size: 68px;
   font-size: 6.8rem;
 }
-.xxlarge {
+#ui .xxlarge {
   font-size: 52px;
   font-size: 5.2rem;
 }
-.xlarge {
+#ui .xlarge {
   font-size: 41px;
   font-size: 4.1rem;
 }
-.large {
+#ui .large {
   font-size: 32px;
   font-size: 3.2rem;
 }
-.medium {
+#ui .medium {
   font-size: 26px;
   font-size: 2.6rem;
 }
-.default-font {
+#ui .default-font {
   font-size: 16px;
   font-size: 1.6rem;
 }
-.small {
+#ui .small {
   font-size: 14px;
   font-size: 1.4rem;
 }
-.tiny {
+#ui .tiny {
   font-size: 12px;
   font-size: 1.2rem;
 }
-h1 {
+#ui h1 {
   font-size: 48px;
   font-size: 4.8rem;
 }
-h2 {
+#ui h2 {
   font-size: 40px;
   font-size: 4rem;
 }
-h3 {
+#ui h3 {
   font-size: 32px;
   font-size: 3.2rem;
 }
-header h1 {
+header #ui h1 {
   font-size: 81px;
   font-size: 8.1rem;
 }
-section h1 {
+section #ui h1 {
   font-size: 68px;
   font-size: 6.8rem;
 }
-article header h1 {
+article header #ui h1 {
   font-size: 52px;
   font-size: 5.2rem;
 }
-aside header h1 {
+aside header #ui h1 {
   font-size: 26px;
   font-size: 2.6rem;
 }
-footer h1 {
+footer #ui h1 {
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bolder;
 }
-p,
-#ui p {
+#ui p,
+#ui #ui p {
   font-size: 16px;
   font-size: 1.6rem;
 }
