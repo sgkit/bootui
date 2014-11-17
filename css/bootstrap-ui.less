@@ -1,10 +1,8 @@
-@import "../assets/bootstrap/less/bootstrap";
-@import (reference) "../assets/bootstrap/less/navbar";
-@import (reference) "../assets/bootstrap/less/bootstrap.less";
-@import "../bower_components/bootstrap/less/type.less";
+@import "../packages/bootstrap/less/bootstrap";
+@import (reference) "../packages/bootstrap/less/navbar";
+@import (reference) "../packages/bootstrap/less/bootstrap.less";
+@import "../packages/bootstrap/less/type.less";
 @import "less/bootstrap-variables";
 @import "less/theme-variables";
-//@import "../bower_components/bootstrap/less/utilities";
-//@import "../bower_components/bootstrap/less/responsive-utilities";
 //* --- ui styles --- */
-@import "less/ui";
+@import (inline) "less/ui.css";

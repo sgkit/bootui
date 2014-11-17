@@ -1870,7 +1870,7 @@ body {
 }
 #ui :required {
   content: '*';
-  border-bottom: 1px solid dotted !important;
+  border-bottom: 1px solid !important;
 }
 #ui input[type="color"],
 #ui input[type=date],
